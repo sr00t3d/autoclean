@@ -1,0 +1,7 @@
+[
+  {
+    "name": "custom_php_system_backdoor",
+    "extensions": [".php", ".phtml"],
+    "pattern": "@?system\\s*\\(\\s*\\$_(?:GET|POST|REQUEST)\\s*\\[[^\\]]+\\]\\s*\\)\\s*;"
+  }
+]
