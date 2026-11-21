@@ -6,6 +6,8 @@
 [![Version](https://img.shields.io/badge/version-2.0.0-brightgreen.svg)](https://github.com/sr00t3d/autoclean/releases)
 [![Bash](https://img.shields.io/badge/Linux%20%2F%20macOS-Bash%204.0%2B-4EAA25?logo=gnu-bash&logoColor=white)](autoclean.sh)
 
+![autoclean Cover](autoclean-cover.webp)
+
 O **`autoclean.sh`** é uma CLI leve e offline em Bash para detectar e remover cirurgicamente injeções clássicas de malware em arquivos PHP, HTML, JavaScript e `.htaccess` — com **modo dry-run por padrão**, **backup automático `.tar.gz` (`chmod 600`)** antes de qualquer alteração, suporte opcional a revendas cPanel, regras regex customizadas em JSON e saídas `table`, `json` e `csv`.
 
 > **Inspiração Histórica:** Reimplementação limpa em Bash + Python 3 stdlib inspirada no `autoclean 1.2` (2011, **Patrick Harrison** / HostGator Security). Remove instaladores obsoletos de Python 2.6/RPM, XML-RPC e telemetria interna extinta, preservando o fluxo seguro de backup e limpeza cirúrgica.

@@ -6,6 +6,8 @@
 [![Version](https://img.shields.io/badge/version-2.0.0-brightgreen.svg)](https://github.com/sr00t3d/autoclean/releases)
 [![Bash](https://img.shields.io/badge/Linux%20%2F%20macOS-Bash%204.0%2B-4EAA25?logo=gnu-bash&logoColor=white)](autoclean.sh)
 
+![autoclean Cover](autoclean-cover.webp)
+
 **`autoclean.sh`** is a lightweight, offline-first Bash CLI for detecting and surgically removing common web malware injections from PHP, HTML, JavaScript, and `.htaccess` files — with **dry-run mode by default**, automatic **`chmod 600` `.tar.gz` backups** before any modification, optional cPanel reseller scanning, custom JSON regex rules, and structured `table`, `json`, and `csv` outputs.
 
 > **Historical Inspiration:** Clean-room Bash + Python 3 stdlib reimplementation inspired by `autoclean 1.2` (2011, **Patrick Harrison** / HostGator Security). Removes all defunct Python 2.6/RPM installers, XML-RPC servers, and internal telemetry endpoints while preserving the safe surgical backup-and-clean workflow.
